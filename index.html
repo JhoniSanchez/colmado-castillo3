@@ -8,7 +8,7 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(223, 223, 223);
     }
 
     .gallery {
@@ -39,26 +39,37 @@
     .gallery-item {
       position: relative;
       margin: 10px;
-      box-shadow:5px 5px 5px 5px rgba(49, 49, 49, 0.356);
-background-color: aliceblue;
+      box-shadow:5px 5px 5px 5px rgba(49, 49, 49, 0.158);
+background-color: rgb(255, 255, 255);
 border-radius: 10px ;
       cursor: pointer;
-      text-align: center;
+      text-align:  center;
+      height: auto;
     }
 
     .gallery-item img {
+
       width: 450px;
       height: 450px;
-      object-fit: cover;
+      object-fit: contain;
    
     }
 
     .gallery-item .title {
-      margin-top: 10px;
-      font-size: 15px;
+      margin-top: 0px;
+      font-size: 10px;
       text-align: center;
       font-weight: bold;
     }
+  .title {
+      margin: 20px;
+      padding-top: 30px;
+      font-size: 20px;
+
+
+
+    }
+
 
     .modal {
       display: none;
@@ -83,7 +94,7 @@ border-radius: 10px ;
     }
 
     .modal-content img {
-      background-size: cover;
+      background-size: contain;
      
       width: 95vw;
       height: auto;

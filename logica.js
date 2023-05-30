@@ -1,7 +1,7 @@
 
 import { data } from "./data.js";
 
-for (let i = 90; i <= data.length; i++) {
+for (let i = 1; i <= data.length; i++) {
 
     const formateador = new Intl.NumberFormat("en");
     let insetar = document.querySelector(".gallery");
@@ -9,7 +9,7 @@ for (let i = 90; i <= data.length; i++) {
 
     nueva.innerHTML = `    
     <div class="gallery-item" id="abrir${i}">
-      <div class="title">${data[i].Producto}</div>
+      <h1 class="title">${data[i].Producto}</h1>
       <img src=./img/${data[i].imagen}.jpg alt="Imagen ${data[i].imagen}">
       <div class="description">
 
