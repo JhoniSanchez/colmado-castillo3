@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #e9e9e9;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+
+  }
+.encabezado {
+    font-size: 30px;
+    display: inline;
+    text-align: center;
+    font-style: italic;
+}
+/* 
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow:0px 5px 5px 5px rgba(49, 49, 49, 0.158);
+    border-radius: 15px;
+  }
+  
+  .category img {
+    width: 400px;
+    height: auto;
+        object-fit: contain;
+        
+  } */
+  
+  .category h2 {
+    margin: 0;
+  }
+
+
+   .logo {
+    width: 100vw;
+    height: auto;
+    object-fit: contain;
+  }
+
+
+
+
+  p {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0;
+    font-size: 70%;
+}
+
+
+  .category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1000px; /* Ancho máximo para la categoría */
+    margin: 0 auto;
+  }
+  
+  .category {
+    width: calc(33.33% - 20px); /* Ajusta el tamaño para tres elementos por fila */
+background-color: #ffffff;
+    box-shadow:0px 3px 3px 3px rgba(49, 49, 49, 0.158);
+    margin: 5px;
+    border-radius: 10px;
+    
+  }
+  
+  .category img {
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+    /* margin: 10px; */
+    
+  }
+  
+  .category h2 {
+    margin: 5px;
+    text-align: center;
+    font-size: 110%;
+  }
+
+  h1 {
+    display: block;
+    font-size: 0.5em;
+    margin-block-start: 0.27em;
+    margin-block-end: 0.27em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+  
+  @media screen and (max-width: 420px) {
+    .category {
+      width: calc(50% - 20px); /* Dos elementos por fila en pantallas más pequeñas */
+    }
+  }
+  
+  @media screen and (max-width: 150px) {
+    .category {
+      width: 100%; /* Un elemento por fila en pantallas aún más pequeñas */
+    }
+  }
+
+  div a  {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .category a:visited {
+    color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+h2  {
+    color: #333;
+    text-decoration: none;
+  }
+  
+
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }

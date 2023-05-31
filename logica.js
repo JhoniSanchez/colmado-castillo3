@@ -75,12 +75,8 @@ for (let i = 1; i <= data.length; i++) {
   </div>
 </div>
 
-
-
-
 `
         ;
-
 
     // nueva.classList.add("gallery-item")
 
@@ -211,20 +207,6 @@ for (let i = 1; i <= data.length; i++) {
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // function salirf() {
     //     var imageContainers = document.querySelectorAll('.image-container');
     //     imageContainers.forEach(function (container) {
@@ -288,15 +270,8 @@ ${totalunidadXcantidad} media cajas X ${data[i].unidad}
     abrir.addEventListener('click', openModal);
 cerrar.addEventListener('click', closeModal);
 
-
     // salir.addEventListener('click', salirf);
-
-
-        // Función para abrir el modal y mostrar la imagen, título y comentarios
-
-
-
-
+    // Función para abrir el modal y mostrar la imagen, título y comentarios
 
 }
 
